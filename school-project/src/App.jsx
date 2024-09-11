@@ -5,9 +5,10 @@ import './App.css'
 import Navigation from './component/Navigation'
 import Footer from './component/footer'
 import Information from './component/Information'
+import Form from './component/Form'
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
     <><section>
@@ -16,7 +17,9 @@ function App() {
     <section>
       <Information/>
     </section>
-    <section></section>
+    <section>
+      <Form/>
+    </section>
     <section>
     <Footer/>
     </section>
