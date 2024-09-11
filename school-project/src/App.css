@@ -1,0 +1,180 @@
+General styles
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+html,body,#root{
+  width: 100%;
+  height: 100%;
+}
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+} */
+
+/* Header styles */
+/* header {
+  background-color: #fff;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+} */
+
+/* .logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+} */
+
+/* nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+}
+
+.buttons {
+  display: flex;
+} */
+
+.contact-button,
+.apply-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.contact-button {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+.apply-button {
+  background-color: #f44336; /* Red */
+  color: white;
+}
+
+/* Hero styles */
+.hero {
+  background-color: #f0f0f0;
+  padding: 40px 0;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero img {
+    max-width: 1}
+    .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+    }
+    
+    .logo-and-navigation {
+      display: flex;
+      align-items: center;
+    }
+    
+    .logo-and-navigation h1 {
+      margin-right: 20px;
+    }
+    
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+    
+    nav li {
+      margin-right: 20px;
+    }
+    
+    nav a {
+      text-decoration: none;
+      color: #000;
+    }
+    
+    .buttons {
+      display: flex;
+      align-items: center;
+      
+    }
+    
+    .contact-button, .apply-button {
+      padding: 10px 20px;
+      margin-left: 10px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+
+
+
+    
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+  }
+
+  nav li {
+    margin-bottom: 10px;
+  }
+
+  .hero-text h1 {
+    font-size: 28px;
+  }
+
+  .hero-text h2 {
+    font-size: 20px;
+  }
+
+  .call-to-action .buttons {
+    flex-direction: column;
+  }
+
+  .call-to-action .buttons button {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-text h1 {
+    font-size: 24px;
+  }
+
+  .hero-text h2 {
+    font-size: 18px;
+  }
+
+  .whatsapp a {
+    font-size: 28px;
+  }
+}
