@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import '../Form.css'
 const Form = () => {
   const [firstName, setFirstName] = useState('');
   const [lastName, setLastName] = useState('');
@@ -31,9 +31,9 @@ const Form = () => {
         justifyContent:"center"
       }}>
 
-        <div style={{ width: '40%',
+        <div style={{ width: '550px',
         margin: '20px',
-        padding: '20px',
+        padding: '50px',
         border: '1px solid #ddd',
         borderRadius: '10px',
         boxShadow: '0 0 10px rgba(0, 0, 0, 0.1)',}}>
@@ -96,6 +96,9 @@ const Form = () => {
           {/* Add province options here */}
           <option value="">Select Province</option>
           <option value="KwaZulu-Natal">KwaZulu-Natal</option>
+          <option value="Mpumalanga">Mpumalanga</option>
+          <option value="Limpopo">Limpopo</option>
+       
           {/* Add other provinces */}
         </select>
       </div>
@@ -111,6 +114,10 @@ const Form = () => {
           {/* Add grade options here */}
           <option value="">Select Grade</option>
           <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
           {/* Add other grades */}
         </select>
       </div>
@@ -124,7 +131,7 @@ const Form = () => {
           style={{ width: '100%', padding: '10px', border: '1px solid #ccc', borderRadius: '4px', height: '100px' }}
         ></textarea>
       </div>
-      <button type="submit" style={{ padding: '10px 20px', backgroundColor: '#007bff', color: '#fff', border: 'none', borderRadius: '4px', cursor: 'pointer' }}>SEND</button>
+      <button className='submit' type="submit" style={{ padding: '10px 20px', backgroundColor: '#007bff', color: '#fff', border: 'none', borderRadius: '4px', cursor: 'pointer' }}>SEND</button>
     </form>
     </div>
     </div>

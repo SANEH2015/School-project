@@ -1,0 +1,33 @@
+
+  
+@media (max-width: 768px) {
+    .text, .quick-facts {
+      width: 100%;
+    }
+    
+    .quick-facts {
+      margin: 20px 0;
+    }
+    
+    .InfoBox {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+  }
+  @media (max-width: 768px) {
+    .text, .SecondDev {
+      width: 100%;
+      margin: 0;
+      padding: 10px;
+    }
+    
+    .SecondDev {
+      margin: 0;
+    }
+    
+    .InfoBox {
+      flex-direction: column;
+      align-items: center;
+    }
+  }

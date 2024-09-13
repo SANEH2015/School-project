@@ -1,0 +1,44 @@
+/* Footer.css */
+
+/* .containerFooter {
+    background-color: darkblue;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: space-between;
+  }
+  
+  .containerFooter h1 {
+    margin: 0;
+  }
+  
+  .contact, .follow-us {
+    flex: 1;
+    margin: 10px;
+  }
+  
+  .contact p, .follow-us h2 {
+    margin: 5px 0;
+  }
+  
+  .follow-us .icons {
+    display: flex;
+    justify-content: center;
+  } */
+  
+  @media (max-width: 768px) {
+    .containerFooter {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .contact, .follow-us {
+      text-align: center;
+    }
+  
+    .follow-us .icons {
+      justify-content: center;
+    }
+  }
+  

@@ -15,48 +15,8 @@ body {
   padding: 0;
 }
 
-/* .container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
-} */
 
-/* Header styles */
-/* header {
-  background-color: #fff;
-  padding: 20px 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-} */
-
-/* .logo {
-  font-size: 24px;
-  font-weight: bold;
-  color: #333;
-} */
-
-/* nav ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-}
-
-nav li {
-  margin-right: 20px;
-}
-
-nav a {
-  text-decoration: none;
-  color: #333;
-}
-
-.buttons {
-  display: flex;
-} */
-
-.contact-button,
+/* .contact-button,
 .apply-button {
   padding: 10px 20px;
   border: none;
@@ -66,16 +26,16 @@ nav a {
 }
 
 .contact-button {
-  background-color: #4CAF50; /* Green */
+  background-color: #4CAF50; 
   color: white;
 }
 
 .apply-button {
-  background-color: #f44336; /* Red */
+  background-color: #f44336; 
   color: white;
-}
+} */
 
-/* Hero styles */
+
 .hero {
   background-color: #f0f0f0;
   padding: 40px 0;
@@ -94,36 +54,32 @@ nav a {
       padding: 20px;
     }
     
-    .logo-and-navigation {
+    /* .logo-and-navigation {
       display: flex;
       align-items: center;
     }
     
     .logo-and-navigation h1 {
       margin-right: 20px;
-    }
+    } */
     
-    nav ul {
+    /* nav ul {
       list-style: none;
       margin: 0;
       padding: 0;
       display: flex;
-    }
-    
-    nav li {
-      margin-right: 20px;
-    }
-    
-    nav a {
+    } */
+
+    /* nav a {
       text-decoration: none;
-      color: #000;
-    }
+      color:white;
+    } */
     
-    .buttons {
+    /* .buttons {
       display: flex;
       align-items: center;
       
-    }
+    } */
     
     .contact-button, .apply-button {
       padding: 10px 20px;
@@ -136,7 +92,26 @@ nav a {
     }
 
 
-
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    
+      nav ul {
+        flex-direction: column;
+        width: 100%;
+      }
+    
+      nav ul li {
+        margin-bottom: 10px;
+      }
+    
+      .buttons {
+        flex-direction: column;
+        width: 100%;
+      }
+    }
 
     
 @media (max-width: 768px) {
@@ -163,6 +138,7 @@ nav a {
   .call-to-action .buttons button {
     margin-bottom: 10px;
   }
+
 }
 
 @media (max-width: 480px) {
@@ -174,7 +150,6 @@ nav a {
     font-size: 18px;
   }
 
-  .whatsapp a {
-    font-size: 28px;
-  }
+  
 }
+
