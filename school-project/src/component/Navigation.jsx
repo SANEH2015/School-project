@@ -1,22 +1,18 @@
 import React, { useState } from 'react';
 import Image from '../assets/school.jfif';
-import '../Navigation.css';  
+import '../Navigation.css';
 
 function Navigation() {
   const [isNavOpen, setIsNavOpen] = useState(false);
 
   const toggleNav = () => {
     setIsNavOpen(!isNavOpen);
-
-
   };
-
-  
 
   return (
     <div>
       <header>
-        <div className="container" style={{ backgroundColor: 'darkblue', color: 'white',width:"100%" }}>
+        <div className="container" style={{ backgroundColor: 'darkblue', color: 'white' }}>
           <div className="logo-and-navigation">
             <h1>CURRO</h1>
             <button className="hamburger" onClick={toggleNav}>
@@ -33,11 +29,8 @@ function Navigation() {
                 <li><a href="#">Investor Relations</a></li>
                 <li><a href="#">Vacancies</a></li>
                 <li><a href="#">MyHub</a></li>
-                <div className="navButton" style={{display:"flex"}}>
                 <li><button className="contact-button">CONTACT ME</button></li>
                 <li><button className="apply-button" style={{ backgroundColor: 'green' }}>APPLY NOW</button></li>
-                </div>
-               
               </ul>
             </nav>
           </div>
